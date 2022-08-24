@@ -9,6 +9,15 @@
       li {
         list-style-type: none;
       }
+      .scale {
+        transition: 1s;
+      }
+      .scale:hover {
+        transform: scale(1.2);
+      }
+      .colortext {
+        color: rgb(242, 17, 24);
+      }
     </style>
   </head>
   <body>
@@ -25,10 +34,20 @@
         накладки из мягкой замши и шнурки с принтом adidas.
       </h3>
       <a href="img/7.png" target="_blank"
-        ><img src="img/7.png" alt="Картинка3" width="400" height="400"
+        ><img
+          src="img/7.png"
+          alt="Картинка3"
+          class="scale"
+          width="400"
+          height="400"
       /></a>
       <a href="img/8.png" target="_blank"
-        ><img src="img/8.png" alt="Картинка4" width="400" height="400"
+        ><img
+          src="img/8.png"
+          alt="Картинка4"
+          class="scale"
+          width="400"
+          height="400"
       /></a>
     </div>
     <div align="center">
@@ -52,7 +71,7 @@
           <option>43</option>
         </select>
       </p>
-      <h2 align="center">Цена:300 руб.</h2>
+      <h2 align="center">Цена: <span class="colortext"> 300</span> руб.</h2>
     </div>
   </body>
   <footer>
