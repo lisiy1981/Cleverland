@@ -1,0 +1,28 @@
+table {
+  width: 800px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 20px;
+}
+#blue {
+  color: white;
+  background-color: blue;
+}
+#violet {
+  color: black;
+  background-color: violet;
+}
+.red {
+  color: black;
+  background-color: red;
+}
+.skyblue {
+  color: black;
+  background-color: skyblue;
+}
