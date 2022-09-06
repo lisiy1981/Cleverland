@@ -1,0 +1,14 @@
+#p_1,
+#p_2 {
+  width: 500px;
+  padding: 1em;
+  margin: 2em;
+  border: 1px solid grey;
+}
+#p_2 {
+  white-space: pre;
+}
+pre {
+  letter-spacing: 1.3px;
+  text-shadow: 1px 1px 2px grey;
+}
