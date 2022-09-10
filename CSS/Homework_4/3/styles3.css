@@ -1,23 +1,28 @@
-tr,
-th,
+table {
+  empty-cells: hide;
+  font-family: "Arial";
+  border-spacing: 5px;
+}
+
+th {
+  border-radius: 5px;
+  width: 120px;
+  padding: 15px;
+  background: linear-gradient(to top, #87eb06, #6dbb21);
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+}
+
 td {
   border-radius: 5px;
   width: 120px;
   padding: 15px;
+  background-color: rgba(128, 255, 0, 0.425);
+  text-align: center;
+  font-size: larger;
 }
-thead tr {
-  background: linear-gradient(to top, #8af004, #6ab623);
-  color: white;
-}
-th:nth-child(1) {
-  background: linear-gradient(45deg, #8af004, #6ab623);
-  color: white;
-}
-tr {
-  background-color: #c4eda4;
-}
-table {
-  border-collapse: separate;
-  empty-cells: hide;
-  border-spacing: 4px;
+
+th:first-of-type {
+  background: linear-gradient(45deg, #8af004, #6dbb21);
 }
