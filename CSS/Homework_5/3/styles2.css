@@ -1,0 +1,22 @@
+.element-1 {
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  background: rgb(117, 28, 28);
+  top: 45px;
+  left: 45px;
+  position: absolute;
+}
+.element-2 {
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  background: green;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: block;
+  background-color: rgb(196, 220, 180);
+  width: 800px;
+  height: 50px;
+  position: relative;
+  border: 2px solid rgb(147, 206, 147);
+}
+.element_1 {
+  color: blue;
+  font-weight: 900;
+  padding: 6px 60px 0px 60px;
+  font-size: 17px;
+}
+.element_2 {
+  color: rgb(29, 120, 90);
+  font-weight: 200;
+  padding: 0px 0px 6px 60px;
+}
+.element_3 {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.element_4 {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
