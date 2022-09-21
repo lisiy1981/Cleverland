@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 500px;
+        margin: 200px 400px;
+      }
+      .weather {
+        display: inline-block;
+        text-align: center;
+        margin: 2px;
+        width: 150px;
+        height: 190px;
+      }
+      .weather:hover {
+        box-shadow: 3px 3px 3px 3px grey;
+      }
+      #date {
+        margin: 0px;
+        background-color: rgb(41, 152, 232);
+        color: white;
+        font-size: 20px;
+      }
+      img + p {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather">
+        <p id="date">31.08</p>
+        <img src="img/weather-sun.jpg" />
+        <p>+20&deg;</p>
+      </div>
+      <div class="weather">
+        <p id="date">01.09</p>
+        <img src="img/weather-snow.jpg" />
+        <p>-3&deg;</p>
+      </div>
+      <div class="weather">
+        <p id="date">02.09</p>
+        <img src="img/weather-blizzard.jpg" />
+        <p>-10&deg;</p>
+      </div>
+    </div>
+  </body>
+</html>
