@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  background-color: rgb(55, 93, 81);
+  width: 100%;
+  justify-content: end;
+}
+header #logo {
+  display: flex;
+  flex: 0.3 1 auto;
+  background-color: orange;
+  justify-content: center;
+  height: 180px;
+  margin: 30px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  vertical-align: middle;
+  height: 60px;
+  flex: 1 1 auto;
+  background-color: rgb(6, 6, 59);
+  margin-bottom: 10px;
+  color: white;
+}
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#first {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 200, 234);
+  height: 70px;
+  flex-grow: 1;
+  margin: 5px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+}
+aside {
+  background-color: rgb(167, 31, 230);
+  height: 60px;
+  margin: 5px;
+  flex-grow: 1;
+}
+main {
+  height: 60px;
+  flex: 4 1 auto;
+}
+#second {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 200, 234);
+  height: 70px;
+  flex: 1 1 auto;
+  margin: 5px;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(1, 42, 29);
+  flex: 1 1 auto;
+  height: 140px;
+  color: white;
+  margin-top: 10px;
+}
