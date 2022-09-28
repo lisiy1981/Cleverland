@@ -171,3 +171,7 @@ img .container_2 .waiting .waiting_1 {
   font-weight: 300;
   line-height: 21px;
 }
+.container_2 {
+  width: 1440px;
+  margin: 0 auto;
+}
