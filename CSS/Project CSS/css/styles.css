@@ -1,7 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 .promo {
   height: 800px;
@@ -9,6 +8,7 @@
   padding: 38px 0 60px 0;
 }
 .container {
+  position: relative;
   width: 1440px;
   margin: 0 auto;
 }
@@ -17,7 +17,6 @@
   margin: 0 auto;
 }
 .logo .logo_text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -34,7 +33,6 @@ h2 {
   margin-top: 20px;
 }
 .title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
@@ -44,7 +42,6 @@ h2 {
   text-align: center;
 }
 .title_big {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -72,7 +69,6 @@ h2 {
   margin: 0 0 16px 18px;
 }
 .promo .promo_text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -82,14 +78,14 @@ h2 {
   margin-top: 22px;
 }
 span {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
   line-height: 28px;
   color: #f9bf3b;
 }
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
   display: block;
   margin: 72px auto;
   width: 313px;
@@ -105,7 +101,6 @@ span {
   cursor: pointer;
 }
 .more .more_text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 100;
   font-size: 15px;
@@ -124,17 +119,17 @@ span {
   background: #efefef;
   padding: 84px 0 74px 0;
 }
-.title_1 {
-  font-family: "Roboto";
+.title_1,
+.finish .finish_header {
   font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
   color: #252525;
   text-align: center;
 }
-.line {
+.line,
+.finish .finish_divider {
   display: block;
   margin: 0 auto;
   margin-top: 18px;
@@ -143,35 +138,186 @@ span {
   background: #f9bf3b;
 }
 .title_2 {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 23px;
   line-height: 20px;
   color: #4a4a4a;
   text-align: center;
   margin-top: 18px;
 }
-.container_2 .waiting {
+.container .waiting {
   display: flex;
   justify-content: space-between;
   margin-top: 44px;
 }
-.container_2 .waiting .waiting_1 {
+.container .waiting .waiting_1 {
   width: 384px;
   text-align: center;
 }
-img .container_2 .waiting .waiting_1 {
+img .container .waiting .waiting_1 {
   width: 100%;
 }
-.container_2 .waiting .waiting_1 .text {
+.container .waiting .waiting_1 .text {
   margin-top: 32px;
   color: #4a4a4a;
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
 }
-.container_2 {
-  width: 1440px;
+.optimization {
+  min-height: 548px;
+  padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+  margin-left: 390px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.optimization .optimization_text {
+  margin-top: 24px;
+  margin-left: 390px;
+  color: #4a4a4a;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.optimization .optimization_text span {
+  font-weight: 700;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: -60px;
+  left: -240px;
+  z-index: -1;
+}
+.finish {
+  min-height: 450px;
+  padding: 86px 0 68px 0;
+  background: url("../img/bg/second_bg.jpg") center center/cover no-repeat;
+}
+
+.finish .finish_header {
+  color: #efefef;
+}
+
+.finish .finish_wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 234px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 24px;
+  text-align: center;
+  color: #efefef;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.gift {
+  min-height: 630px;
+  /* т.к. у кнопки margin 72px, а padding 88px в figma */
+  padding: 84px 0 16px 0;
+  background-color: #efefef;
+}
+
+.gift .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift .gift_text {
+  margin-top: 42px;
+  color: #252525;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.gift .gift_btn {
+  margin-top: 50px;
+  border: none;
+}
+.first_webinar {
+  min-height: 512px;
+  margin-top: 81px;
+}
+.first_webinar .first_webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+.first_webinar .webinar_text_1 {
+  margin-top: 36px;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #252525;
+  text-transform: uppercase;
+  text-align: center;
+}
+.first_webinar .webinar_text_2 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  color: #299cbd;
+  text-transform: uppercase;
+  text-align: center;
+}
+.first_webinar .webinar_text_3 {
+  margin-top: 24px;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 20px;
+  color: #4a4a4a;
+  text-align: center;
+}
+footer {
+  min-height: 169px;
+  background-color: #1a1a1a;
+  padding: 57px 0 69px 0;
+}
+.contact_info {
+  width: 407px;
+  margin: 0 auto;
+  text-align: center;
+  color: #888888;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+footer a {
+  text-align: center;
+  color: #888888;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: underline;
+}
+.no_line {
+  text-decoration: none;
 }
