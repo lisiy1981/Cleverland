@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 9.2</title>
+    <style>
+      div {
+        height: 55px;
+        width: 55px;
+        border: 1px solid red;
+        animation-name: myAnimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 3;
+      }
+      @keyframes myAnimation {
+        from {
+          transform: translate(0, 0);
+        }
+        to {
+          transform: translateX(550px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

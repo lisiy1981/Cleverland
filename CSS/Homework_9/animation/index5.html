@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 9.6</title>
+    <style>
+      div {
+        height: 55px;
+        width: 220px;
+        border: 1px solid red;
+        animation-name: myAnimation;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-play-state: paused;
+        animation-direction: alternate;
+      }
+      div:hover {
+        animation-play-state: running;
+      }
+      @keyframes myAnimation {
+        from {
+          width: 220px;
+        }
+        to {
+          width: 1920px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
