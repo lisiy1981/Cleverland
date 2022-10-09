@@ -1,22 +1,18 @@
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+/*section_header*/
 .header {
   height: 950px;
   background: url("../img/bgc.jpg") center center/cover no-repeat;
 }
-.container {
-  max-width: 1920px;
-  margin: 0 auto;
-}
 .header_container {
-  max-width: 1110px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
-.header_list {
-  display: flex;
-  flex-wrap: wrap;
-}
+.header_list,
 .header_list_2 {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +35,18 @@
 .header_item {
   margin-right: 40px;
   margin-top: 41px;
+  font-weight: 700;
+  color: white;
+}
+.search_img {
+  padding: 3px;
+  position: relative;
+  right: -27px;
+}
+.vector_img {
+  padding: 3px;
+  position: relative;
+  left: -15px;
 }
 .title {
   margin-top: 523px;
@@ -86,5 +94,162 @@
 }
 .header_list_3 {
   display: flex;
-  gap: 15px;
+  column-gap: 15px;
+}
+/*section_second_screen*/
+.second_screen_container {
+  margin: 0 auto;
+  min-height: 851px;
+}
+.second_screen_text_1 {
+  margin-top: 100px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+}
+.second_screen_text_2 {
+  margin-top: 15px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #333333;
+}
+.second_screen_list {
+  display: flex;
+  justify-content: space-between;
+}
+.second_screen_item {
+  display: flex;
+  margin-top: 60px;
+  width: 165px;
+  height: 55px;
+  border: 1px solid grey;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 1px white, 6px 6px 1px grey;
+}
+.second_screen_link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+  text-decoration: none;
+}
+.second_screen_list_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.second_screen_item_2 {
+  display: flex;
+  margin-top: 55px;
+  width: 350px;
+  height: 280px;
+  border: 1px solid grey;
+  align-items: flex-end;
+  justify-content: center;
+  background: url(/img/Rectangle\ 5.jpg);
+}
+.second_screen_item_2 a {
+  color: white;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+a:hover {
+  color: aqua;
+}
+.second_screen_item_2:nth-child(2) {
+  background: url(/img/Rectangle\ 6.jpg);
+}
+.second_screen_item_2:nth-child(3) {
+  background: url(/img/Rectangle\ 7.jpg);
+}
+.second_screen_item_2:nth-child(4) {
+  background: url(/img/Rectangle\ 8.jpg);
+}
+.second_screen_item_2:nth-child(5) {
+  background: url(/img/Rectangle\ 9.jpg);
+}
+.second_screen_item_2:nth-child(6) {
+  background: url(/img/Rectangle\ 10.jpg);
+}
+.second_screen_item_2:nth-child(n + 4) {
+  position: relative;
+  top: -30px;
+  margin-bottom: 120px;
+}
+/*our_salon*/
+.our_salon {
+  height: 541px;
+  background: url(/img/Rectangle\ salon.jpg);
+}
+.our_salon_text_1 {
+  padding-top: 100px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.our_salon_text_2 {
+  margin-top: 15px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #ffffff;
+}
+.our_salon_text_3 {
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 730px;
+  height: 100px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.our_salon_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px 35px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
 }
