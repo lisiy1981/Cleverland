@@ -362,7 +362,6 @@ a:hover {
 .gallery_img {
   margin: 60px 0 150px 0;
 }
-
 .gallery_list {
   display: flex;
   flex-wrap: wrap;
@@ -380,4 +379,100 @@ a:hover {
 .gallery_item_2 {
   width: 555px;
   height: 300px;
+}
+
+/* section subscribe */
+
+.subscribe_container {
+  height: 478px;
+  background: url(/img/subbg.jpg);
+}
+.subscribe_text_1 {
+  padding-top: 100px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.subscribe_text_2 {
+  margin-top: 15px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #ffffff;
+}
+.subscribe_menu_container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 773px;
+  height: 113px;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe_menu {
+  width: 245px;
+  height: 105px;
+}
+.subscribe_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.subscribe_link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.subscribe_link::before {
+  content: url(/icons/subscribe__icon.svg);
+  padding-right: 20px;
+}
+.subscribe_form {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  width: 418px;
+  height: 85px;
+}
+.subscribe_email {
+  width: 200px;
+  height: 45px;
+  margin-left: 22px;
+}
+.subscribe_btn {
+  height: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #333333;
+  color: white;
+  margin-left: 15px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.border {
+  width: 448px;
+  height: 113px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
