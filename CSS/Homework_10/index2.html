@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 10.2</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header menu"
+          "article content content"
+          "article ads footer";
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        grid-gap: 5px;
+      }
+      .header {
+        background: greenyellow;
+        grid-area: header;
+      }
+      .menu {
+        background: yellow;
+        grid-area: menu;
+      }
+      .article {
+        background: blue;
+        grid-area: article;
+      }
+      .content {
+        background: violet;
+        grid-area: content;
+      }
+      .ads {
+        background: green;
+        grid-area: ads;
+      }
+      .footer {
+        background: red;
+        grid-area: footer;
+      }
+      .header,
+      .menu,
+      .article,
+      .content,
+      .ads,
+      .footer {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">1</div>
+      <div class="menu">2</div>
+      <div class="article">3</div>
+      <div class="content">4</div>
+      <div class="ads">5</div>
+      <div class="footer">6</div>
+    </div>
+  </body>
+</html>
