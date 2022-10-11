@@ -333,9 +333,6 @@ a:hover {
   background-color: #333333;
   cursor: pointer;
 }
-a:hover {
-  color: aqua;
-}
 
 /* section subscribe */
 
@@ -475,4 +472,96 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* section footer */
+
+.footer_container {
+  height: 395px;
+}
+.footer_links {
+  height: 295px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_useful_links,
+.footer_payment,
+.footer_contacts,
+.footer_networks {
+  width: 255px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.footer_useful_line {
+  border: 1px solid #333333;
+}
+.footer_payment_line {
+  border: 1px solid #333333;
+  margin-bottom: 22px;
+}
+.footer_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.footer_contacts_line {
+  border: 1px solid #333333;
+  margin-bottom: 20px;
+}
+.footer_contacts a::before {
+  content: url(/icons/tel.svg);
+  margin-right: 20px;
+}
+.footer_contacts a + a + a::before {
+  content: url(/icons/entypo_mail.svg);
+}
+.footer_networks_line {
+  border: 1px solid #333333;
+  margin-bottom: 28px;
+}
+.footer_networks_images {
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+}
+.footer_line {
+  border: 1px solid #333333;
+  margin-top: 60px;
+}
+
+.footer_last {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+a:hover {
+  color: aqua;
 }
