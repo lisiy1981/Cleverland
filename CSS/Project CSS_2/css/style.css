@@ -1,3 +1,7 @@
+* {
+  font-family: "Gilroy";
+  font-weight: 400;
+}
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -19,9 +23,7 @@
   flex-wrap: wrap;
 }
 .header_link {
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #ffffff;
@@ -64,7 +66,6 @@
   margin: 0 auto;
   margin-top: 50px;
   padding: 15px 35px;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -106,9 +107,7 @@
 }
 .second_screen_text_1 {
   margin-top: 100px;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -140,7 +139,6 @@
   box-shadow: 5px 5px 1px white, 6px 6px 1px grey;
 }
 .second_screen_link {
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -169,7 +167,6 @@
 }
 .second_screen_item_2 a {
   color: white;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -212,9 +209,7 @@ a:hover {
 }
 .our_salon_text_1 {
   padding-top: 100px;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -235,9 +230,7 @@ a:hover {
   margin-top: 45px;
   width: 730px;
   height: 100px;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   text-align: center;
@@ -248,7 +241,6 @@ a:hover {
   margin: 0 auto;
   margin-top: 50px;
   padding: 15px 35px;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -267,9 +259,7 @@ a:hover {
   height: 626px;
 }
 .blog_text_1 {
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -300,9 +290,7 @@ a:hover {
   background: url(/img/blog1.jpg);
 }
 .blog_link a {
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -321,7 +309,6 @@ a:hover {
   margin: 0 auto;
   margin-top: 60px;
   padding: 15px 35px;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -338,9 +325,7 @@ a:hover {
 
 .gallery_text_1 {
   margin-top: 120px;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -386,9 +371,7 @@ a:hover {
 }
 .subscribe_text_1 {
   padding-top: 100px;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 21px;
   line-height: 140%;
   text-align: center;
@@ -424,9 +407,7 @@ a:hover {
   height: 100%;
 }
 .subscribe_link {
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #ffffff;
@@ -455,7 +436,6 @@ a:hover {
   background-color: #333333;
   color: white;
   margin-left: 15px;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -496,7 +476,6 @@ a:hover {
   justify-content: space-between;
 }
 .footer h2 {
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -513,7 +492,6 @@ a:hover {
   margin-bottom: 22px;
 }
 .footer_text {
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -545,9 +523,7 @@ a:hover {
 }
 .footer a {
   text-decoration: none;
-  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #333333;
