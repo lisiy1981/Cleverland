@@ -161,7 +161,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  column-gap: 30px;
 }
 .second_screen_item_2 {
   display: flex;
@@ -184,9 +183,6 @@
   text-transform: uppercase;
   text-decoration: none;
   padding-bottom: 30px;
-}
-a:hover {
-  color: aqua;
 }
 .second_screen_item_2:nth-child(2) {
   background: url(/img/Rectangle\ 6.jpg);
@@ -262,7 +258,6 @@ a:hover {
 /* blog */
 
 .blog_container {
-  margin: 0 auto;
   margin-top: 120px;
   height: 626px;
 }
@@ -355,8 +350,6 @@ a:hover {
 .gallery_list {
   display: flex;
   flex-wrap: wrap;
-  width: 1110px;
-  height: 600px;
 }
 .gallery_item {
   width: 277px;
