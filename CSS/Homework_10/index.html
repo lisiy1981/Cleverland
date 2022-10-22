@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 10</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "content menu"
+          "footer footer";
+        grid-template-columns: 1000px 200px;
+        grid-template-rows: 100px 500px 100px;
+      }
+      .header {
+        grid-area: header;
+        background: greenyellow;
+      }
+      .content {
+        grid-area: content;
+        background: blue;
+      }
+      .menu {
+        grid-area: menu;
+        background: yellow;
+      }
+      .footer {
+        grid-area: footer;
+        background: violet;
+      }
+      .header,
+      .content,
+      .menu,
+      .footer {
+        border: 3px solid white;
+        border-radius: 15px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">HEADER</div>
+      <div class="menu">MENU</div>
+      <div class="content">CONTENT</div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>
