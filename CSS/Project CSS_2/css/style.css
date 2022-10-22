@@ -170,7 +170,7 @@
   border: 1px solid grey;
   align-items: flex-end;
   justify-content: center;
-  background: url(/img/Rectangle\ 5.jpg);
+  background: url(../img/Rectangle5.jpg);
 }
 .second_screen_item_2 a {
   color: white;
@@ -185,19 +185,19 @@
   padding-bottom: 30px;
 }
 .second_screen_item_2:nth-child(2) {
-  background: url(/img/Rectangle\ 6.jpg);
+  background: url(../img/Rectangle6.jpg);
 }
 .second_screen_item_2:nth-child(3) {
-  background: url(/img/Rectangle\ 7.jpg);
+  background: url(../img/Rectangle7.jpg);
 }
 .second_screen_item_2:nth-child(4) {
-  background: url(/img/Rectangle\ 8.jpg);
+  background: url(../img/Rectangle8.jpg);
 }
 .second_screen_item_2:nth-child(5) {
-  background: url(/img/Rectangle\ 9.jpg);
+  background: url(../img/Rectangle9.jpg);
 }
 .second_screen_item_2:nth-child(6) {
-  background: url(/img/Rectangle\ 10.jpg);
+  background: url(../img/Rectangle10.jpg);
 }
 .second_screen_item_2:nth-child(n + 4) {
   position: relative;
@@ -209,7 +209,7 @@
 
 .our_salon {
   height: 541px;
-  background: url(/img/Rectangle\ salon.jpg);
+  background: url(../img/Rectangle_salon.jpg);
 }
 .our_salon_text_1 {
   padding-top: 100px;
@@ -290,7 +290,7 @@
   justify-content: center;
   width: 350px;
   height: 370px;
-  background: url(/img/blog1.jpg);
+  background: url(../img/blog1.jpg);
 }
 .blog_link a {
   font-style: normal;
@@ -302,10 +302,10 @@
   padding-bottom: 35px;
 }
 .blog_link:nth-child(2) {
-  background: url(/img/blog2.jpg);
+  background: url(../img/blog2.jpg);
 }
 .blog_link:nth-child(3) {
-  background: url(/img/blog3.jpg);
+  background: url(../img/blog3.jpg);
 }
 .blog_btn {
   display: block;
@@ -368,7 +368,7 @@
 
 .subscribe_container {
   height: 478px;
-  background: url(/img/subbg.jpg);
+  background: url(../img/subbg.jpg);
 }
 .subscribe_text_1 {
   padding-top: 100px;
@@ -415,7 +415,7 @@
   text-decoration: none;
 }
 .subscribe_link::before {
-  content: url(/icons/subscribe__icon.svg);
+  content: url(../icons/subscribe__icon.svg);
   padding-right: 20px;
 }
 .subscribe_form {
@@ -508,11 +508,11 @@
   margin-bottom: 20px;
 }
 .footer_contacts a::before {
-  content: url(/icons/tel.svg);
+  content: url(../icons/tel.svg);
   margin-right: 20px;
 }
 .footer_contacts a + a + a::before {
-  content: url(/icons/entypo_mail.svg);
+  content: url(../icons/entypo_mail.svg);
 }
 .footer_networks_line {
   border: 1px solid #333333;
