@@ -1,16 +1,12 @@
 "use strict";
-
-let amountImages = prompt("Укажите сколько изображений в галерее?");
-amountImages = Number(amountImages);
-let imageWidth = prompt("Какая ширина одного изображения?");
-imageWidth = Number(imageWidth);
-let maxWhiteOneImage = (1024 - (5 * 2 + 3 * 10)) / 4;
-alert(
-  `Максимальная ширина изображения не должна превышать: ${maxWhiteOneImage}`
+let amountImages = prompt(
+  "Укажите сколько изображений вы хотите разместить галерее?",
+  4
 );
-let imageEveryRow = (1024 - (5 * 2 + 3 * 10)) / maxWhiteOneImage;
-alert(`Колличество изображений в каждом ряду: ${imageEveryRow}`);
+let imageWidth = prompt("Какая ширина ваших изображений?", 246);
+let imageEveryRow = Math.trunc(1024 / (+imageWidth + 5 * 2));
+alert(`Количество изображений в каждом ряду: ${imageEveryRow}`);
 let row = Math.trunc(amountImages / imageEveryRow);
-alert(`Колличество полных рядов: ${row}`);
-let imagesLastRow = amountImages % imageEveryRow;
-alert(`Колличество изображений в последнем ряду: ${imagesLastRow}`);
+alert(`Количество полных рядов: ${row}`);
+let imagesLastRow = amountImages - imageEveryRow * row || imageEveryRow;
+alert(`Количество изображений в последнем ряду: ${imagesLastRow}`);
