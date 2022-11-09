@@ -5,4 +5,4 @@ while (true) {
   if (!value) break;
   sum += value;
 }
-alert(`Сумма введенных чисел ровна:${sum}`);
+alert(`Сумма введенных чисел равна:${sum}`);
