@@ -22,5 +22,5 @@ for (let key in person) {
   if (typeof person[key] === "number") {
     num++;
   }
-  console.log(num);
 }
+console.log(num);
