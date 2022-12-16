@@ -23,7 +23,7 @@ const movieDB = {
     "Скотт Пилигрим против...",
   ],
 };
-const adv = document.querySelectorAll(".promo__adv > img");
+const adv = document.querySelectorAll(".promo__adv img");
 const poster = document.querySelector(".promo__bg");
 const genre = document.querySelector(".promo__genre");
 const movieList = document.querySelector(".promo__interactive-list");
