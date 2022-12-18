@@ -35,23 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const addInput = addForm.querySelector(".adding__input");
   const checkbox = addForm.querySelector("[type='checkbox']");
 
-  adv.forEach((item) => {
-    item.remove();
-  });
-
-  poster.style.backgroundImage = 'url("img/bg.jpg")';
-
-  genre.textContent = "драма";
-
-  movieList.innerHTML = "";
-  movieDB.movies.sort();
-  movieDB.movies.forEach((film, index) => {
-    movieList.innerHTML += `
-  <li class="promo__interactive-item">${index + 1} ${film}
-                <div class="delete"></div>
-              </li>`;
-  });
-
   addForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
