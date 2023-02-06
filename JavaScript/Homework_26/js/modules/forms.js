@@ -1,46 +1,4 @@
 function forms() {
-  //TODO: axios
-  // axios
-  //   .get('http://localhost:3000/menu')
-  //   .then((data) => {
-  //     data.data.forEach(({ img, altimg, title, descr, price }) => {
-  //       new MenuCard(
-  //         img,
-  //         altimg,
-  //         title,
-  //         descr,
-  //         price,
-  //         '.menu .container'
-  //       ).render();
-  //     });
-  //   })
-  //   .catch(() => {
-  //     showThanksModal(message.failure);
-  //   });
-
-  const getResource = async (url) => {
-    let resolve = await fetch(url);
-
-    if (!resolve.ok) {
-      throw new Error(`Could not fetch ${url}, status: ${res.status}`);
-    }
-
-    return await resolve.json();
-  };
-
-  getResource("http://localhost:3000/menu").then((data) => {
-    data.forEach(({ img, altimg, title, descr, price }) => {
-      new MenuCard(
-        img,
-        altimg,
-        title,
-        descr,
-        price,
-        ".menu .container"
-      ).render();
-    });
-  });
-
   // Forms
 
   const forms = document.querySelectorAll("form");

@@ -180,20 +180,6 @@ function cards() {
       this.parent.append(element);
     }
   }
-}
-
-module.exports = cards;
-
-
-/***/ }),
-
-/***/ "./js/modules/forms.js":
-/*!*****************************!*\
-  !*** ./js/modules/forms.js ***!
-  \*****************************/
-/***/ ((module) => {
-
-function forms() {
   //TODO: axios
   // axios
   //   .get('http://localhost:3000/menu')
@@ -235,7 +221,20 @@ function forms() {
       ).render();
     });
   });
+}
 
+module.exports = cards;
+
+
+/***/ }),
+
+/***/ "./js/modules/forms.js":
+/*!*****************************!*\
+  !*** ./js/modules/forms.js ***!
+  \*****************************/
+/***/ ((module) => {
+
+function forms() {
   // Forms
 
   const forms = document.querySelectorAll("form");
