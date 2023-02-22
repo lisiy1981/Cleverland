@@ -38,5 +38,5 @@
   margin: auto; /*отступы*/
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7); /*тень блока*/
   z-index: -1; /*задает размещением по z-оси ниже блока   */
-  transform: rotate(-5deg); /*поворот на 5 градусов*/
+  transform: rotate(-5deg); /*поворот на -5 градусов*/
 }

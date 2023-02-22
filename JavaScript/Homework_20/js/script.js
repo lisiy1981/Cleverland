@@ -150,19 +150,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
   // TODO: Используем классы для создание карточек меню
 
-  class MenuCard {
-    constructor(src, alt, title, descr, price, parentSelector, ...classes) {
-      this.src = src;
-      this.alt = alt;
-      this.title = title;
-      this.descr = descr;
-      this.price = price;
-      this.classes = classes;
-      this.parent = document.querySelector(parentSelector);
-      this.transfer = 27;
-      this.chngeToUAH();
-    }
-
     chngeToUAH() {
       this.price = this.price * this.transfer;
     }

@@ -22,5 +22,16 @@
       "price": 21
     }
   ],
-  "requests": []
+  "requests": [
+    {
+      "name": "lisiy2",
+      "phone": "+375 (29) 771-42-81",
+      "id": 1
+    },
+    {
+      "name": "lisiy2",
+      "phone": "+375 (29) 771-42-81",
+      "id": 2
+    }
+  ]
 }

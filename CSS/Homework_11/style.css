@@ -113,3 +113,9 @@ footer {
     background: url(/img/768.jpg) center center/cover no-repeat;
   }
 }
+@media (min-width: 1024px) and (max-width: 1419px) {
+  header {
+    height: 200px;
+    background: url(/img/1024.jpg) center center/cover no-repeat;
+  }
+}
